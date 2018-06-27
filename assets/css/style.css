@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+/*start nav*/
+#nav-list .nav-item .nav-link {
+	font-weight: 900;
+}
+
+#nav-list .active > .nav-link {
+	color: #d3562b;
+	font-weight: 900;
+}
+
+
+/*landing page*/
+
+#landing-page {
+	height: 100vh;
+	width: 100vw;
+	background-image: url(../images/gradient-bg.jpg);
+	background-size: cover;
+}
+
+#landing-logo {
+	height: 18vw;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#slogan {
+	font-size: 1.75rem;
+	color: #d3562b; /*ikoniq orange*/
+	padding-top: 8vw;
+	position: absolute;
+	top: 56%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	letter-spacing: 2px;
+	font-weight: 1500;
+}
+
+.link {
+	color: #0a7bb1; /*blue link*/
+	text-decoration: underline;
+	font-size: 0.85rem;
+	position: absolute;
+	top: 84%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.arrow {
+	height: 1.75rem;
+	position: absolute;
+	top: 87.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*end landing*/
+
+
+/*navbar*/
+
+#nav-logo {
+	height: 100%;
+	width: 8vw;
+}
+
+/*end nav*/
+
+/*home*/
+#container-home {
+	height: 100vh;
+	width: 100%;
+	max-width: 3000px;
+	min-width: 300px;
+	padding-right: 0;
+	background-image: url(../images/gradient-bg.jpg);
+	background-size: cover;
+}
+
+#home-row {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#home-left {
+	padding-left: 0;
+}
+
+#pool-pic {
+	height: 90vh;
+}
+
+#right-part {
+	font-size: 2rem;
+	font-weight: 900;
+	color: #d3562b;
+}
+
+#right-part:hover {
+	background-color: #eca117;
+	color: #20272d;
+}
+
+.par-home {
+	font-family: 'Montserrat', sans-serif;
+	color: #231f20;
+	font-size: 0.85rem;
+	font-weight: 700;
+}
+
+#home-ps {
+	width: 30vw;
+}
+
+.links {
+	color: #0a7bb1; /*blue link*/
+	text-decoration: underline;
+	font-size: 1.15rem;
+}
+
+
+/*end home*/
+
+/*start quote*/
+#container-quote {
+	height: 100vh;
+	width: 100vw;
+	background-image: url(../images/gradient-bg.jpg);
+	background-size: cover;
+}
+
+/*#orange-border {
+	height: 75vh;
+	margin-top: 8%;
+	margin-left: 25%;
+
+}*/
+
+
+
+
+
+
+/*media queries*/
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+
+	#landing-logo {
+		height: 30vh;
+	}
+
+	#slogan {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+
+	#nav-logo {
+		width: 20vw;
+	}
+
+	#container-home {
+		height: 100%;
+		width: 100%;
+	}
+	#home-left {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	#right-part {
+	font-size: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	}
+
+	#pool-pic {
+		padding-right: 0;
+		width: 100%;
+		height: 60vh;
+	}
+
+	#home-ps {
+		width: 100%;
+		text-align: justify;
+	}
+
+	.links {
+		text-align: center;
+	}
+
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+		#landing-logo {
+		height: 70vh;
+	}
+
+
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+		#landing-logo {
+		height: 40vh;
+	}
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+
+
+
+
