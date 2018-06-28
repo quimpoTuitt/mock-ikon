@@ -78,7 +78,7 @@
 
 /*home*/
 #container-home {
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	max-width: 3000px;
 	min-width: 300px;
@@ -163,6 +163,14 @@
 		height: 30vh;
 	}
 
+	.arrow {
+		top: 90%;
+	}
+
+	.link {
+		font-size: 0.75rem;
+	}
+
 	#slogan {
 		font-size: 1.5rem;
 		text-align: center;
@@ -181,16 +189,21 @@
 		padding-right: 0;
 	}
 
-	#right-part {
-	font-size: 2rem;
-	text-align: center;
-	line-height: 2rem;
+	#right-part p {
+		margin-top: 5vh!important;
+		font-size: 1.75rem;
+		text-align: center;
+		line-height: 2rem;
 	}
 
 	#pool-pic {
 		padding-right: 0;
 		width: 100%;
 		height: 60vh;
+	}
+
+	.par-home {
+		font-size: 0.75rem;
 	}
 
 	#home-ps {
@@ -207,7 +220,7 @@
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
 
-		#landing-logo {
+	#landing-logo {
 		height: 70vh;
 	}
 
@@ -217,14 +230,79 @@
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
-		#landing-logo {
-		height: 40vh;
+	#landing-logo {
+		height: 30vh;
 	}
+
+	#slogan {
+		font-size: 2rem;
+	}
+
+	#pool-pic {
+		width: 100%;
+		height: 100%;
+	}
+
+	.par-home {
+		font-size: 0.75rem;
+	}
+
+
+
+	#home-ps {
+		width: 70%;
+		text-align: justify;
+	}
+
+	.link {
+		font-size: 1.5rem;
+	}
+
+	.links {
+		font-size: 0.85rem;
+	}
+
+
 
  }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	#landing-logo {
+		height: 30vh;
+	}
+
+	#slogan {
+		font-size: 2.75rem;
+	}
+
+	#pool-pic {
+		width: 100%;
+		height: 100%;
+	}
+
+	#right-part {
+		font-size: 2.5rem;
+	}
+
+	.par-home {
+		font-size: 1rem;
+	}
+
+	#home-ps {
+		width: 70%;
+		text-align: justify;
+	}
+
+	.link {
+		font-size: 1.75rem;
+	}
+	.arrow {
+		height: 2.5rem;
+	}
+
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
