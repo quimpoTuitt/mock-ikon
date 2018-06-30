@@ -105,11 +105,16 @@
 	font-size: 2rem;
 	font-weight: 900;
 	color: #d3562b;
+	background: linear-gradient(to right,transparent 50%, #eca117 50%);
+	background-position: 0;
+	background-size: 200%;
+  	transition: all 0.4s;
 }
 
-#right-part:hover {
-	background-color: #eca117;
+span#right-part:hover {
 	color: #20272d;
+	background-color: #ECA117;
+	background-position: -100%;
 }
 
 .par-home {
@@ -135,17 +140,12 @@
 /*start quote*/
 #container-quote {
 	height: 100vh;
-	width: 100vw;
-	background-image: url(../images/gradient-bg.jpg);
-	background-size: cover;
+
 }
 
-/*#orange-border {
-	height: 75vh;
-	margin-top: 8%;
-	margin-left: 25%;
-
-}*/
+#orange-border {
+	/*width: 100%;*/
+}
 
 
 
@@ -189,7 +189,7 @@
 		padding-right: 0;
 	}
 
-	#right-part p {
+	#right-part {
 		margin-top: 5vh!important;
 		font-size: 1.75rem;
 		text-align: center;
