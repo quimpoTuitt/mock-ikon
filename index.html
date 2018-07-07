@@ -22,17 +22,30 @@
 
 
     <!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,500i" rel="stylesheet">
 
 </head>
 <body>
 
-	<!-- landing page -->
-	<div id="landing-page">
-		<img src="assets/images/ikoniq-logo.png" alt="Ikoniq logo" id="landing-logo">
-		<h6 id="slogan"><strong>Workmanship Above All</strong></h6>
-		<a href="#ikoniq-top" class="link">Start your dream project now</a>
-		<a href="#ikoniq-top"><img class="arrow" src="assets/images/arrow.svg" alt="Arrow"></a>
+	<div class="container-fluid d-flex" id="landing-page">
+		<div class="my-auto mx-auto" id="center-land">
+
+			<img id="logo-land" src="assets/images/ikoniq-logo.png">
+
+			<h3 class="my-auto mx-auto" id="landing-slogan"><strong>Workmanship Above All</strong></h3>
+
+			<div id="links-div">
+				<a href="#ikoniq-top" class="link">Start your dream project now</a>
+				<br>
+				<a href="#ikoniq-top"><img class="arrow" src="assets/images/arrow.svg" alt="Arrow"></a>	
+			</div>
+
+		</div>
+	</div> <!-- end landing -->
+
+	<div class="container-fluid d-flex">
+		
 	</div>
 	
 	<!-- end landing -->
@@ -80,7 +93,7 @@
 			</div>
 
 			<div class="col-12 col-md-6 my-auto" id="home-right">
-				<span class="align-center" id="right-part">On this site will rise your dream project</span>
+				<span class="align-center right-part">On this site will rise your dream project</span>
 				<div id="home-ps">
 					<p class="par-home">Let’s collaborate. We’re here to help in every step of the way. That’s a promise.</p>
 					<p class="par-home">Designing and constructing your dream project, residential, commercial or retail should be a fun, memorable and rewarding experience. </p>
@@ -95,15 +108,105 @@
 
 	<div class="container-fluid d-flex" id="container-quote">
 		<div class="row my-auto mx-auto">
-			<div class="col-2"></div>
-			<div class="col-8">
-				<img class="img-fluid mx-auto d-block text-center" src="assets/images/box-logo.png" id="orange-border">
-<!-- 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio rerum modi, fugit ut ipsum necessitatibus cupiditate mollitia voluptates, omnis voluptatem, aut labore quae enim obcaecati est. Velit minima adipisci iste.</p> -->
+			<div class="testBox col-12 px-auto py-auto" id="quote-border">
+				<p class="orange-quote text-center medium">Sparked by creativity and conversation</p>
+				<p class="orange-quote text-center font-italic">a nook can tell a story.</p>
+				<p class="orange-quote text-center medium">Driven by curiousity and empathy,</p>
+				<p class="orange-quote text-center font-italic">a room can inspire.</p>
+				<p class="orange-quote text-center medium">Guided by the marriage of function and beauty,</p>
+				<p class="orange-quote text-center font-italic">a space can have a purpose.</p>
 			</div>
-			<div class="col-2"></div>
+			<!-- <a class="my-auto mx-auto links" href="#">Learn how we work</a> -->
 		</div>
 
 	</div>
+
+	<div class="container-fluid" id="gallery-landing">
+		<div class="container">
+			
+			<div class="row align-center mx-auto">
+				<div class="col-md-4">
+					<div class="card rounded-0">
+					  <img class="card-img-top rounded-0" src="assets/images/house1.jpg" alt="Card image cap">
+					  <div class="card-body">
+					  	<h5 class="card-title"><strong>Card Title</strong></h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  </div>
+					</div>							
+				</div>
+				
+
+				<div class="col-md-4">
+					<div class="card rounded-0">
+					  <img class="card-img-top rounded-0" src="assets/images/house1.jpg" alt="Card image cap">
+					  <div class="card-body">
+					  	<h5 class="card-title"><strong>Card Title</strong></h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  </div>
+					</div>							
+				</div>
+				
+
+				<div class="col-md-4">
+					<div class="card rounded-0">
+					  <img class="card-img-top rounded-0" src="assets/images/house1.jpg" alt="Card image cap" id="house">
+					  <div class="card-body">
+					  	<h5 class="card-title"><strong>Card Title</strong></h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  </div>
+					</div>							
+				</div>
+
+			</div> <!-- end row -->
+
+			<div class="container-fluid">
+					<div class="row" id="bottom-row">
+						<div class="col-md-2"></div>
+						<div class="col-md-4">
+							<div class="card rounded-0">
+							  <img class="card-img-top rounded-0" src="assets/images/house1.jpg" alt="Card image cap">
+							  <div class="card-body">
+							  	<h5 class="card-title"><strong>Card Title</strong></h5>
+							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>							
+						</div>
+						
+
+						<div class="col-md-4">
+							<div class="card rounded-0">
+							  <img class="card-img-top rounded-0" src="assets/images/house1.jpg" alt="Card image cap">
+							  <div class="card-body">
+							  	<h5 class="card-title"><strong>Card Title</strong></h5>
+							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>							
+						</div>
+
+						<div class="col-md-2"></div>
+					</div>
+			</div>
+		</div> <!-- end container  -->
+	</div> <!-- end container fluid -->
+
+
+			<footer id="footer">
+				<div class="container-fluid"> 
+					<h3 id="footer-top">Let's collaborate.</h3>
+					<h3>We're help in every step of the way, <span class="right-part" id="span-footer">that's a promise.</span></h3>
+					<a href="#" id="footer-link"><small>CONTACT US</small></a>
+					
+				</div>
+			</footer>
+		
+
+		
+
+
+
+
+
+
 
 
 

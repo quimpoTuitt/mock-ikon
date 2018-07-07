@@ -26,42 +26,36 @@
 	background-size: cover;
 }
 
-#landing-logo {
-	height: 18vw;
-	position: absolute;
-	top: 35%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+#center-land {
+	text-align: center;
 }
 
-#slogan {
-	font-size: 1.75rem;
-	color: #d3562b; /*ikoniq orange*/
-	padding-top: 8vw;
-	position: absolute;
-	top: 56%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	letter-spacing: 2px;
-	font-weight: 1500;
+#logo-land {
+	margin-top: 15vh;
+	height: 35vh;
+	margin-bottom: 12vh;
+}
+
+#landing-slogan {
+		color: #d3562b;
+		font-weight: 900;
+		letter-spacing: 3px;
+		/*margin-bottom: 100px;*/
 }
 
 .link {
+	/*margin-top: 10vh;*/
 	color: #0a7bb1; /*blue link*/
 	text-decoration: underline;
-	font-size: 0.85rem;
-	position: absolute;
-	top: 84%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	font-size: 1rem;
 }
 
 .arrow {
-	height: 1.75rem;
-	position: absolute;
-	top: 87.5%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	width: 1.5rem;
+}
+
+#links-div {
+	margin-top: 15vh;
 }
 
 /*end landing*/
@@ -101,7 +95,7 @@
 	height: 90vh;
 }
 
-#right-part {
+.right-part {
 	font-size: 2rem;
 	font-weight: 900;
 	color: #d3562b;
@@ -111,7 +105,7 @@
   	transition: all 0.4s;
 }
 
-span#right-part:hover {
+span.right-part:hover {
 	color: #20272d;
 	background-color: #ECA117;
 	background-position: -100%;
@@ -131,7 +125,7 @@ span#right-part:hover {
 .links {
 	color: #0a7bb1; /*blue link*/
 	text-decoration: underline;
-	font-size: 1.15rem;
+	font-size: 0.85rem;
 }
 
 
@@ -140,12 +134,129 @@ span#right-part:hover {
 /*start quote*/
 #container-quote {
 	height: 100vh;
+	width: 100%;
 
 }
 
-#orange-border {
-	/*width: 100%;*/
+.orange-quote {
+	letter-spacing: 0.075em;
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+
+
 }
+
+#quote-border {
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+	border-top: 5px solid #d3562b;
+	border-left: 5px solid #d3562b;
+	border-right: 5px solid #d3562b;
+	border-image-bottom: url(../../assets/images/borderbottom.png);
+	/*background-image: url(../../assets/images/borderbottom.png);*/
+}
+
+
+.medium {
+	color: #273036;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.font-italic {
+	font-family: 'Montserrat', sans-serif;
+	color: #d3562b;
+}
+
+#gallery-landing {
+	height: 80%;
+	width: 100vw;
+	background-image: url(../images/pattern.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	margin: 0 auto;
+}
+
+#bottom-row {
+	margin-top: 5%; 
+}
+
+
+.card {
+	
+	width: 250px;
+	height: 100%;
+	-moz-box-shadow: 10px 10px rgb(228,76,43);
+	-webkit-box-shadow: 10px 10px rgb(228,76,43);
+	box-shadow: 10px 10px rgb(228,76,43);
+	background-color: orange;
+}
+
+#house:hover {
+	/*opacity: 0.5;*/
+	background-image: url(../images/h1-hover.jpg);
+
+}
+
+.card-body {
+	background-color: #0a7bb1;
+	color: white;
+}
+
+.card-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.75em;
+}
+
+#footer {
+	height: 100%;
+	background-color: #d3562b;
+	width: 100vw;
+	color: #e2e2e3;
+	text-align: center;
+
+}
+
+#footer-top {
+	padding-top: 50px;
+}
+
+#footer-link {
+	display: inline-block;
+	padding-bottom: 50px;
+}
+
+
+#span-footer {
+	color: #e2e2e3;
+}
+
+#span-footer:hover {
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -163,13 +274,6 @@ span#right-part:hover {
 		height: 30vh;
 	}
 
-	.arrow {
-		top: 90%;
-	}
-
-	.link {
-		font-size: 0.75rem;
-	}
 
 	#slogan {
 		font-size: 1.5rem;
@@ -189,7 +293,7 @@ span#right-part:hover {
 		padding-right: 0;
 	}
 
-	#right-part {
+	.right-part {
 		margin-top: 5vh!important;
 		font-size: 1.75rem;
 		text-align: center;
@@ -254,14 +358,6 @@ span#right-part:hover {
 		text-align: justify;
 	}
 
-	.link {
-		font-size: 1.5rem;
-	}
-
-	.links {
-		font-size: 0.85rem;
-	}
-
 
 
  }
@@ -282,7 +378,7 @@ span#right-part:hover {
 		height: 100%;
 	}
 
-	#right-part {
+	.right-part {
 		font-size: 2.5rem;
 	}
 
@@ -295,12 +391,6 @@ span#right-part:hover {
 		text-align: justify;
 	}
 
-	.link {
-		font-size: 1.75rem;
-	}
-	.arrow {
-		height: 2.5rem;
-	}
 
 }
 
