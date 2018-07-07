@@ -9,6 +9,8 @@
 /*start nav*/
 #nav-list .nav-item .nav-link {
 	font-weight: 900;
+	font-size: 1em;
+
 }
 
 #nav-list .active > .nav-link {
@@ -40,6 +42,7 @@
 		color: #d3562b;
 		font-weight: 900;
 		letter-spacing: 3px;
+		font-size: 37.96px;
 		/*margin-bottom: 100px;*/
 }
 
@@ -56,6 +59,7 @@
 
 #links-div {
 	margin-top: 15vh;
+	font-size: 18px;
 }
 
 /*end landing*/
@@ -116,6 +120,7 @@ span.right-part:hover {
 	color: #231f20;
 	font-size: 0.85rem;
 	font-weight: 700;
+	text-align: justify;
 }
 
 #home-ps {
@@ -125,7 +130,7 @@ span.right-part:hover {
 .links {
 	color: #0a7bb1; /*blue link*/
 	text-decoration: underline;
-	font-size: 0.85rem;
+	font-size: 1rem;
 }
 
 
@@ -196,6 +201,10 @@ span.right-part:hover {
 	background-color: orange;
 }
 
+.card-title {
+	/*font-size: 24px;*/
+}
+
 #house:hover {
 	/*opacity: 0.5;*/
 	background-image: url(../images/h1-hover.jpg);
@@ -209,7 +218,17 @@ span.right-part:hover {
 
 .card-text {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 0.75em;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+#left {
+	margin-top: 5%;
+}
+
+#left img.img-left {
+	height: 200px;
+	/*margin-top: 10%;*/
 }
 
 #footer {
@@ -233,13 +252,70 @@ span.right-part:hover {
 
 #span-footer {
 	color: #e2e2e3;
+	font-size: 1.75rem;
 }
 
 #span-footer:hover {
 	color: black;
+	font-weight: 900;
 }
 
 
+#service-head {
+	display: inline-block;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 10px 15px;
+	background-color: #eca117;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	font-size: 46px;
+}
+
+
+#list-service > a > li.list-group-item {
+	border-top: none;
+	background-image: url(../images/service-bg.jpg);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	color: #231f20;
+	font-size: 24px;
+
+}
+
+#left-service {
+	padding-left: 0;
+
+}
+
+.serv-gal {
+	margin-bottom: 20px;
+}
+
+#nested-gallery {
+	padding-top: 10%;
+	width: 100%;
+	margin-left: 10%;
+
+}
+
+#service-con {
+	background-image: url(../images/service-bg.jpg);
+	height: 100vh;
+}
+
+.first-image {
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+}
+
+.second-image {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
 
 
 
