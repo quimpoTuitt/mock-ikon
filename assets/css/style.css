@@ -21,6 +21,7 @@
 
 /*landing page*/
 
+
 #landing-page {
 	height: 100vh;
 	width: 100vw;
@@ -323,8 +324,27 @@ span.right-part:hover {
 
 
 
+/*client journey*/
 
+#myScrollspy {
+	background-color: #20272d;
+	color: #ffffff;
+	text-decoration: none;
+}
 
+#myScrollspy a {
+	color: #ffffff;
+	font-family: "Montserrat",sans-serif;
+	font-weight: 700;
+}
+
+#myScrollspy > h1 {
+	font-size: 46px;
+}
+
+#client-right {
+	background-color: #eca117;
+}
 
 
 
