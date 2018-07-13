@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'PT Sans', sans-serif;
+	/*color: #333;*/
 }
 
 
@@ -269,8 +270,8 @@ span.right-part:hover {
 	padding: 10px 15px;
 	background-color: #eca117;
 	font-family: 'PT Sans', sans-serif;
-	font-weight: bold;
-	font-size: 46px;
+	letter-spacing: 1px;
+	font-weight: 800;
 }
 
 
@@ -290,8 +291,9 @@ span.right-part:hover {
 
 }
 
-.serv-gal {
-	margin-bottom: 20px;
+#nested-gallery .serv-gal {
+	height: 29vh;
+	margin-bottom: 2vh;
 }
 
 #nested-gallery {
@@ -318,6 +320,37 @@ span.right-part:hover {
 	background-color: red;
 }
 
+#res-homes {
+	color: #d3562b;
+	font-weight: 700;
+}
+
+#proj {
+	margin-top: 15%;
+}
+
+#res-bigpic {
+	position: relative;
+	background-image: url(../images/res-1.jpg);
+	background-size: cover;
+	height: 60vh;
+}
+
+#res-tag {
+	position: absolute;
+	background-color: #273036;
+	color: #ffffff;
+	bottom: 0;
+	left: 0;
+	font-family: "Montserrat",sans-serif;
+
+}
+
+#res-tag small,strong {
+		font-family: "Montserrat",sans-serif;
+
+}
+
 
 
 
@@ -332,6 +365,7 @@ span.right-part:hover {
 	text-decoration: none;
 }
 
+
 #myScrollspy a {
 	color: #ffffff;
 	font-family: "Montserrat",sans-serif;
@@ -344,6 +378,27 @@ span.right-part:hover {
 
 #client-right {
 	background-color: #eca117;
+}
+
+.proj-list {
+	text-indent: 25px;
+}
+
+.back-to {
+	text-decoration: none;
+	color: #333;
+}
+
+.big-pic {
+	position: relative;
+}
+
+.tag {
+	background-color: #273036;
+	color: #fff;
+	position: absolute;
+	bottom: 20px;
+
 }
 
 
@@ -415,6 +470,19 @@ span.right-part:hover {
 		text-align: center;
 	}
 
+	#res-par {
+		text-align: justify;
+		/*margin: 0 auto;*/
+	}
+
+	#service-con {
+		height: 100%;
+	}
+
+	.serv-gal {
+		width: 100%;
+	}
+
  }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -423,6 +491,8 @@ span.right-part:hover {
 	#landing-logo {
 		height: 70vh;
 	}
+
+
 
 
  }
@@ -452,6 +522,23 @@ span.right-part:hover {
 	#home-ps {
 		width: 70%;
 		text-align: justify;
+	}
+
+	#service-head {
+		font-size: 2.5em;
+	}
+
+	#nested-gallery {
+		margin-top: 15%;
+	}
+
+	#nested-gallery .serv-gal {
+	height: 29vh;
+	margin-bottom: 2vh;
+	}
+
+	#res-homes {
+		font-size: 0.90em;
 	}
 
 
