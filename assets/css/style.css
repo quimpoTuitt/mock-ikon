@@ -365,6 +365,11 @@ span.right-part:hover {
 	text-decoration: none;
 }
 
+#myScrollspy > ul {
+	/*position: absolute;*/
+	position: fixed;
+	top:0;
+}
 
 #myScrollspy a {
 	color: #ffffff;
