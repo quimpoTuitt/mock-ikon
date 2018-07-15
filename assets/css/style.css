@@ -583,6 +583,14 @@ span.right-part:hover {
 		height: 100%;
 	}
 
+	#about-container {
+		height: 100%;
+	}
+
+	#vision-con {
+		margin-top: 30vh;
+	}
+
  }
 
 /*Small devices (landscape phones, 576px and up)*/
