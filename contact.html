@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title> Ikoniq | Services</title>
+	<title> Ikoniq | Contact Us</title>
 
 	<!-- External CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -25,11 +26,29 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,500i" rel="stylesheet">
 
+
+	<style type="text/css">
+		body {
+			background-color: #e2e2e3;
+		}
+
+		input[class="form-control"] {
+			font-style: italic;
+			background-color: transparent;
+			border: none;
+			border-bottom: 1px solid #d3562b;
+		}
+
+		input[class="form-control"]:focus {
+			background-color: transparent;
+		}
+
+	</style>
+
 </head>
 <body>
 
-	<div class="container-fluid px-0" id="service-con">
-		<nav class="navbar navbar-expand-lg navbar-light bg-white" id="ikoniq-top">
+			<nav class="navbar navbar-expand-lg navbar-light bg-white" id="ikoniq-top">
 			  <a class="navbar-brand" href="#"><img class="img-fluid" id="nav-logo" src="assets/images/nav-logo.png"></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
@@ -40,73 +59,66 @@
 			      <li class="nav-item">
 			        <a class="nav-link" href="index.html">Home</a>
 			      </li>
-			      <li class="nav-item  active">
-			        <a class="nav-link" href="services.html">Services  <span class="sr-only">(current)</span></a>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Services</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">Process</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="about.html">About</a>
+			        <a class="nav-link" href="#">About</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">FAQs</a>
 			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="contact.html">Contact</a>
+			      <li class="nav-item active">
+			        <a class="nav-link" href="contact.html">Contact  <span class="sr-only">(current)</span></a>
 			      </li>
 			    </ul>
 			  </div>
 		</nav>
 
-		<div class="container" id="ser-con2">
+		<div class="container-fluid px-0" id="contact-container">
 			<div class="row">
+				
+				<div class="col-12 col-md-4 pl-5" id="left-contact">
+					<strong><h3>Let's collaborate.</h3></strong>
+					<strong><h3>We're here to help in</h3></strong>
+					<strong><h3>every step of the way,</h3></strong>
+					<span><strong><h3 class="py-2 px-1" id="contact-span">that's a promise.</h3></strong></span>
 
-				<div class="col-md-4" id="left-service">
-					
-					<h1 class="display-4 px-5" id="service-head">Services</h1>
-
-					<ul class="list-group list-group-flush" id="list-service">
-						<a href="residential.html"><li class="list-group-item">Residential Homes</li></a>
-						<a href="#"><li class="list-group-item">Condominium Units</li></a>
-						<a href="#"><li class="list-group-item">Commercial / Retail Shops</li></a>
-						<a href="#"><li class="list-group-item">Corporate Office Fit-Outs</li></a>
-						<a href="#"><li class="list-group-item">Repairs and Maintenance</li></a>
-					</ul>
-
-
-				</div> <!-- left side -->
-
-				<div class=" col-12 col-md-8 px-0">
-					<div class="row  mx-0 px-0" id="nested-gallery">
-						<div class="col-md-4">
-							<img class="img-fluid serv-gal"src="assets/images/office-1.jpg">
-							<img class="img-fluid serv-gal"src="assets/images/condo-1.jpg">
-						</div>
-
-						<div class="col-12 col-md-8" id="res-bigpic">
-							<div class="col-md-12 pt-2 pb-1" id="res-tag">
-								<small>Residential Home</small>
-								<p><strong>Reyes Residence, LGV</strong></p>
+				</div> <!-- left -->
+				<div class="col-12 col-md-4" id="mid-form">
+					<form id="form-contact">
+						<div class="form-row">
+							<div class="form-group col-12 col-md-6">
+								<input type="text" class="form-control" placeholder="Full Name">
 							</div>
+							<div class="form-group col-12 col-md-6">
+								<input type="email" class="form-control" placeholder="Email">
+							</div>
+							<div class="col-md-12 mt-2">
+								<input type="text" class="form-control" placeholder="Subject">
+							</div>
+							<div class="col-md-12 mt-4">
+    							<textarea class="form-control" rows="6" style="background-color: transparent; font-style: italic; border: none;border-bottom: 1px solid #d3562b; color: #6c757d;">Message</textarea>
+							</div>
+
+							<button class="btn mt-5 px-4 py-2" id="form-button">send</button>		
 						</div>
+					</form>
+					<div class="small-text">
+						<small class="rem-con"><em>"We reply from Mondays through Fridays within 24 to 48 hours.</em></small>
+						<br>
+						<small class="rem-con"><em>For immediate concerns, you may e-mail us at inquire@ikoniq.ph."</em></small>
 					</div>
-				</div>
 
-
-
-
-			</div> <!-- end row -->			
-
-
-
-
+				</div> <!-- mid(form) -->
+				<div class="col-12 col-md-4"></div> <!-- right -->
+				
+			</div> <!-- end row -->
 		</div> <!-- end container -->
 
-
-	
-
-	</div> <!-- end container fluid -->
 
 
 
