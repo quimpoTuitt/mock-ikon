@@ -435,6 +435,49 @@ span.right-part:hover {
 
 }
 
+#section1 {
+	position: relative;
+}
+
+#sec1-hold {
+	
+}
+
+/*about*/
+
+#about-container {
+	height: 200vh;
+	width: 100%;
+	background-image: url(../images/about-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.mis-vis {
+	background-color: #eca117;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	display: inline-block;
+	/*border-radius: 3px;*/
+}
+
+#about-par {
+	color: #fff;
+}
+
+#vision-con {
+	position: absolute;
+	margin-top: 15%;
+}
+
+#mission-bot {
+	padding-top: 120vh;
+	margin: 0 auto;
+}
+
+#about-para {
+	font-family: "Montserrat", sans-serif;
+}
 
 
 
