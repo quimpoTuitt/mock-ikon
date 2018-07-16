@@ -503,7 +503,7 @@ span.right-part:hover {
 }
 
 #form-contact {
-	padding-top: 30%;
+	padding-top: 25%;
 	/*position: relative;*/
 }
 
@@ -534,7 +534,27 @@ span.right-part:hover {
 }
 
 
+.con-deets {
+	font-size: 1em;
+	font-family: "Montserrat", sans-serif;
+}
 
+#address-first {
+	font-size: 0.95em;
+}
+
+#address-con {
+	font-size: 0.95em;
+}
+
+#right-contact {
+	position: relative;
+}
+
+#contact-list {
+	padding-top: 25%;
+
+}
 
 
 
