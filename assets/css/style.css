@@ -294,7 +294,7 @@ span.right-part:hover {
 }
 
 #res-container {
-	height: 88vh;
+	height: 90.75vh;
 }
 
 
@@ -344,7 +344,7 @@ span.right-part:hover {
 }
 
 #ser-con2 {
-	padding-bottom: 15vh;
+	padding-bottom: 18vh;
 }
 
 .first-image {
@@ -416,9 +416,9 @@ span.right-part:hover {
 	font-size: 46px;
 }
 
-#client-right {
+/*#client-right {
 	background-color: #eca117;
-}
+}*/
 
 .proj-list {
 	text-indent: 25px;
@@ -439,6 +439,10 @@ span.right-part:hover {
 	position: absolute;
 	bottom: 20px;
 
+}
+
+#section0 {
+	background-color: #eca117;
 }
 
 #section1 {
@@ -780,6 +784,14 @@ span.right-part:hover {
 
 	#res-homes {
 		font-size: 0.90em;
+	}
+
+	#ser-con2 {
+	padding-bottom: 20.8vh;
+	}
+
+	#res-container {
+		padding-bottom: 94.5vh;
 	}
 
 
