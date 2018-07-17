@@ -10,9 +10,11 @@
 
 /*start nav*/
 
-#ikoniq-top {
+/*#ikoniq-top {
 	height: 12vh;
-}
+}*/
+
+
 #nav-list .nav-item .nav-link {
 	font-weight: 900;
 	font-size: 1em;
@@ -443,8 +445,8 @@ span.right-part:hover {
 	position: relative;
 }
 
-#sec1-hold {
-	
+#faq1-hold {
+	/*padding: 50px;*/
 }
 
 /*about*/
@@ -484,7 +486,7 @@ span.right-part:hover {
 }
 
 #left-contact {
-	height: 88vh;
+	height: 92vh;
 	background-color: #d3562b;
 	padding-top: 15%;
 	color: #fff;
@@ -556,6 +558,37 @@ span.right-part:hover {
 
 }
 
+#faqs-head {
+
+	/*display: inline-block;*/
+	display: inline-block;
+	margin-bottom: 10%;
+	padding: 10px 15px;
+	background-color: #eca117;
+	font-family: 'PT Sans', sans-serif;
+	/*letter-spacing: 1px;*/
+	font-weight: 800;
+	color: #273036;
+
+}
+
+#faqs-left {
+	/*position: fixed;*/
+	height: 100vh;
+	background-color: #273036 !important;
+	z-index: 9999 !important;
+}
+
+
+  #faqs-right {
+  	background-color: #e2e2e3;
+  }
+
+  #faqs-scroll {
+  	list-style: disc;
+  }
+
+
 
 
 
@@ -572,10 +605,6 @@ span.right-part:hover {
 
 	#landing-logo {
 		height: 30vh;
-	}
-
-	#ikoniq-top {
-	height: 100%;
 	}
 
 
@@ -681,6 +710,15 @@ span.right-part:hover {
 		background-color: #d3562b;
 		color: #fff;
 
+	}
+
+	#contact-span {
+		padding-bottom: 15%;
+	}
+
+	#faqs-left {
+		position: relative;
+		height: 100%;
 	}
 
  }
