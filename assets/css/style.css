@@ -453,6 +453,28 @@ span.right-part:hover {
 	/*padding: 50px;*/
 }
 
+#sec-2 .active {
+	background-color: #e5801f;
+	/*padding-right: 150px;*/
+}
+
+#sec-3 .active {
+	background-color: #eca117;
+}
+
+#sec-4 .active {
+	background-color: #0a7bb1;
+}
+
+
+#sec-5 .active {
+	background-color: #46505c;
+}
+
+#sec-6 .active {
+	background-color: #273036;
+}
+
 /*about*/
 
 #about-container {
