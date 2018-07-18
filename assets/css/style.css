@@ -416,10 +416,6 @@ span.right-part:hover {
 	font-size: 46px;
 }
 
-/*#client-right {
-	background-color: #eca117;
-}*/
-
 .proj-list {
 	text-indent: 25px;
 }
@@ -523,6 +519,15 @@ span.right-part:hover {
 	background-color: #eca117;
 	display: inline-block;
 	color: #20272d;
+	font-size: 2em;
+	width: 80%;
+	margin-left: 8%;
+	padding-left: 0.5em;
+	/*padding-right: 0.5em;*/
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	text-align: left;
+	text-indent: 0;
 }
 
 #mid-form {
@@ -677,7 +682,7 @@ span.right-part:hover {
 
 	#container-gall .col-12 {
 		margin-bottom: 2em;
-		padding-left: 15%;
+		/*padding-left: 15%;*/
 	}
 
 	#footer h3, #span-footer, small {
@@ -739,13 +744,22 @@ span.right-part:hover {
 	}
 
 	#contact-span {
-		padding-bottom: 15%;
+		display: inline-block;
+		font-size: 0.75em;
 	}
 
 	#faqs-left {
 		position: relative;
 		height: 100%;
 	}
+
+
+	#client-head {
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+
 
  }
 
@@ -849,6 +863,7 @@ span.right-part:hover {
 		width: 70%;
 		text-align: justify;
 	}
+
 
 
 }

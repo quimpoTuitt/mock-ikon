@@ -66,17 +66,49 @@
   }
 
 
+  @media (max-width: 575.98px) {
+    #myScrollspy {
+      padding-top: 25%;
+      height: 100%;
+      position: relative;
+    }
+
+    #client-right {
+      position: relative;
+    }
+
+    #cj-list {
+      position: relative;
+    }
+
+    .text-sec0 {
+      padding: 5%;
+      font-size: 0.85em;
+      text-align: justify;
+      margin-bottom: 0;
+    }
+
+    body {
+      text-align: justify;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+
   </style>
 
 </head>
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
       <nav class="navbar navbar-expand-lg navbar-light bg-white" id="ikoniq-top" style="position: fixed; top: 0; z-index: 99999 !important; width: 100vw;">
         <a class="navbar-brand" href="index.html"><img class="img-fluid" id="nav-logo" src="assets/images/nav-logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbar-top" style="z-index: 9999 !important;">
           <ul class="navbar-nav ml-auto text-center" id="nav-list">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
@@ -105,9 +137,9 @@
 
 <div class="container-fluid">
   <div class="row">
-    <nav class="col-sm-4 col-4" id="myScrollspy">
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item"><h1 class="flex-column">Client Journey</h1></li>
+    <nav class="col-sm-4 col-12" id="myScrollspy">
+      <ul class="nav nav-pills flex-column" id="cj-list">
+        <li class="nav-item"><h1 class="flex-column" id="client-head">Client Journey</h1></li>
         <li class="nav-item">
           <a class="nav-link active" href="#section1">1 <span class="scroll-space"></span>Project Briefing</a>
         </li>
@@ -124,13 +156,13 @@
           <a class="nav-link" href="#section5">5 <span class="scroll-space"></span>Construction</a>
         </li>
         <li class="nav-item" id="sec-6">
-          <a class="nav-link" href="#section6">5 <span class="scroll-space"></span>Warranty</a>
+          <a class="nav-link" href="#section6">6 <span class="scroll-space"></span>Warranty</a>
         </li>
 
       </ul>
     </nav>
     
-    <div class="col-sm-8 col-8 px-0" id="client-right">
+    <div class="col-sm-8 col-12 px-0" id="client-right">
       <div id="section1">
             <div class="py-auto px-auto align-self-center text-center grey-process">
               <img class="img-fluid" src="assets/images/client-hat.png">
@@ -207,5 +239,7 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
