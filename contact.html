@@ -32,6 +32,10 @@
 			background-color: #e2e2e3;
 		}
 
+		.text-contact {
+			text-indent: 10%;
+		}
+
 		input[class="form-control"] {
 			font-style: italic;
 			background-color: transparent;
@@ -51,6 +55,29 @@
 
 		img {
 			width: 1.15em;
+		}
+
+		@media (max-width: 575.98px) {
+			h3 {
+				font-size: 1.5em;
+			}
+
+			#left-contact {
+				padding-left: 0;
+			}
+
+			#contact-span {
+				display: block;
+				font-size: 1.5em;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+				margin-bottom: 50px;
+
+			}
+
+			.con-deets, #address-first, #address-con {
+				font-size: 0.85em;
+			}
 		}
 
 	</style>
@@ -91,11 +118,11 @@
 		<div class="container-fluid px-0" id="contact-container">
 			<div class="row">
 				
-				<div class="col-12 col-md-4 pl-5" id="left-contact">
-					<strong><h3>Let's collaborate.</h3></strong>
-					<strong><h3>We're here to help in</h3></strong>
-					<strong><h3>every step of the way,</h3></strong>
-					<span><strong><h3 class="py-2 px-4" id="contact-span">that's a promise.</h3></strong></span>
+				<div class="col-12 col-md-4" id="left-contact">
+					<strong><h3 class="text-contact">Let's collaborate.</h3></strong>
+					<strong><h3 class="text-contact">We're here to help in</h3></strong>
+					<strong><h3 class="text-contact">every step of the way,</h3></strong>
+					<span><strong><h3 id="contact-span">that's a promise.</h3></strong></span>
 
 				</div> <!-- left -->
 				<div class="col-12 col-md-4" id="mid-form">
