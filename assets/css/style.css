@@ -53,7 +53,13 @@
 		letter-spacing: 3px;
 		font-size: 37.96px;
 		/*margin-bottom: 100px;*/
-}
+		font-family: 'PT Sans', sans-serif;
+	}
+
+	#landing-slogan > strong {
+			font-family: 'PT Sans', sans-serif;
+	}
+
 
 .link {
 	/*margin-top: 10vh;*/
@@ -130,10 +136,15 @@
   	transition: all 0.4s;
 }
 
+/*#span-on {
+	font-weight: 900 !important;
+}*/
+
 span.right-part:hover {
 	color: #20272d;
 	background-color: #ECA117;
 	background-position: -100%;
+	font-weight: 900 !important;
 }
 
 .par-home {
@@ -141,7 +152,6 @@ span.right-part:hover {
 	color: #231f20;
 	font-size: 0.85rem;
 	font-weight: 700;
-	text-align: justify;
 }
 
 #home-ps {
@@ -161,6 +171,8 @@ span.right-part:hover {
 #container-quote {
 	height: 100vh;
 	width: 100%;
+	/*background-image: url(../images/gradient-bg.jpg);*/
+	background-size: cover;
 
 }
 
@@ -180,9 +192,10 @@ span.right-part:hover {
 	right: 50%;
 	transform: translate(-50%, -50%);
 	bottom: -80px;
-	background-color: white;
+	/*background-color: white;*/
 	padding-right: 50px;
 	padding-left: 50px;
+		/*background-image: url(../images/gradient-bg.jpg);*/
 }
 
 #quote-border {
@@ -237,6 +250,10 @@ span.right-part:hover {
 .card-title {
 	/*font-size: 24px;*/
 }
+
+.card-desc {
+		color: white;
+	}
 
 #house:hover {
 	/*opacity: 0.5;*/
@@ -376,19 +393,24 @@ span.right-part:hover {
 	height: 60vh;
 }
 
-#res-tag {
+#res-bigpic .res-tag {
 	position: absolute;
 	background-color: #273036;
 	color: #ffffff;
 	bottom: 0;
 	left: 0;
 	font-family: "Montserrat",sans-serif;
+	visibility: visible;
 
 }
 
-#res-tag small,strong {
+#res-bigpic small,strong {
 		font-family: "Montserrat",sans-serif;
 
+}
+
+.hide {
+	visibility: hidden;
 }
 
 
@@ -685,6 +707,11 @@ span.right-part:hover {
 		/*padding-left: 15%;*/
 	}
 
+
+	.card-desc {
+		color: white;
+	}
+
 	#footer h3, #span-footer, small {
 		font-size: 1em;
 	}
@@ -796,13 +823,12 @@ span.right-part:hover {
 	}
 
 	.par-home {
-		font-size: 0.75rem;
+		font-size: 0.70rem;
 	}
 
 
 	#home-ps {
-		width: 70%;
-		text-align: justify;
+		width: 80%;
 	}
 
 	#service-head {
@@ -856,12 +882,11 @@ span.right-part:hover {
 	}
 
 	.par-home {
-		font-size: 1rem;
+		font-size: 0.85rem;
 	}
 
 	#home-ps {
 		width: 70%;
-		text-align: justify;
 	}
 
 
