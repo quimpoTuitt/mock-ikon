@@ -171,7 +171,7 @@ span.right-part:hover {
 #container-quote {
 	height: 100vh;
 	width: 100%;
-	/*background-image: url(../images/gradient-bg.jpg);*/
+	background-image: url(../images/gradient-bg.jpg);
 	background-size: cover;
 
 }
@@ -203,12 +203,28 @@ span.right-part:hover {
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 15%;
-	border: 5px solid #d3562b;
+	border-left: 5px solid #d3562b;
+	border-top: 5px solid #d3562b;
+	border-right: 5px solid #d3562b;
 	position: relative;
 	/*border-image-bottom: url(../../assets/images/borderbottom.png);*/
 	/*background-image: url(../../assets/images/borderbottom.png);*/
 }
 
+
+#bot-left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-bottom: 5px solid #d3562b;
+}
+
+#bot-right {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-bottom: 5px solid #d3562b;
+}
 
 .medium {
 	color: #273036;
