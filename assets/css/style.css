@@ -21,6 +21,10 @@
 
 }
 
+/*#nav-list .nav-item .nav-link:hover {
+	border-bottom: 2px solid orange;
+}*/
+
 #nav-list .active > .nav-link {
 	color: #d3562b;
 	font-weight: 900;
@@ -330,6 +334,21 @@ span.right-part:hover {
 	height: 90.75vh;
 }
 
+#reyes-container {
+	height: 70vh;
+}
+
+#resi-head {
+	display: inline-block;
+	margin: 3%;
+	padding: 10px 15px;
+	padding-right: 250px;
+	background-color: #eca117;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 800;
+}
+
 
 #service-head {
 	display: inline-block;
@@ -342,6 +361,16 @@ span.right-part:hover {
 	font-weight: 800;
 }
 
+.reyes-link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.reyes-link:hover {
+	color: orange;
+	border-bottom: none;
+}
+
 
 #list-service > a > li.list-group-item {
 	border-top: none;
@@ -351,17 +380,34 @@ span.right-part:hover {
 	text-decoration: none;
 	color: #231f20;
 	font-size: 24px;
+	margin-bottom: 4.35%;
 
 }
 
 #left-service {
 	padding-left: 0;
+	position: relative;
 
+}
+
+.page-buttons {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.prev-button {
+	margin-right: 10px;
 }
 
 #nested-gallery .serv-gal {
 	height: 29vh;
-	margin-bottom: 2vh;
+}
+
+#rey-nest-gallery {
+	width: 100%;
+	margin-left: 10%;
+
 }
 
 #nested-gallery {
@@ -400,6 +446,10 @@ span.right-part:hover {
 
 #proj {
 	margin-top: 5%;
+}
+
+#reyes-bigpic {
+	height: 60vh;
 }
 
 #res-bigpic {
@@ -657,6 +707,24 @@ span.right-part:hover {
   	list-style: disc;
   }
 
+  .first-serv {
+  	margin-bottom: 2vh;
+  }
+
+
+  	img#first-small {
+		margin-bottom: 3.5vh;
+	}
+
+	.nest-small {
+		position: relative;
+	}
+
+
+
+
+
+
 
 
 
@@ -802,6 +870,15 @@ span.right-part:hover {
 		text-align: center;
 	}
 
+	#resi-head {
+		font-size: 1.75em;
+		padding-right: 2em;
+	}
+
+	#reyes-container {
+		height: 100%;
+	}
+
 
 
  }
@@ -857,8 +934,9 @@ span.right-part:hover {
 
 	#nested-gallery .serv-gal {
 	height: 29vh;
-	margin-bottom: 2vh;
 	}
+
+
 
 	#res-homes {
 		font-size: 0.90em;
