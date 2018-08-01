@@ -267,6 +267,30 @@ span.right-part:hover {
 	background-color: orange;
 }
 
+.card-hold > .card-img-top {
+	background-image: url(../images/house1.jpg);
+	background-size: cover;
+	height: 20vh;
+	width: 100%;
+}
+
+.card-hold:hover > .card-img-top{
+	background-image: url(../images/h1-hover.jpg);
+	background-size: cover;
+	height: 20vh;
+	width: 100%;
+}
+
+.card-hold:hover {
+	box-shadow: none;
+	/* background-image: url(../images/h1-hover.jpg);
+	background-size: cover; */
+	/* height: 20vh; */
+	/* width: 100%; */
+}
+
+
+
 .card-title {
 	/*font-size: 24px;*/
 }
