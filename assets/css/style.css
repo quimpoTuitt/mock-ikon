@@ -140,10 +140,6 @@
   	transition: all 0.4s;
 }
 
-/*#span-on {
-	font-weight: 900 !important;
-}*/
-
 span.right-part:hover {
 	color: #20272d;
 	background-color: #ECA117;
@@ -196,10 +192,8 @@ span.right-part:hover {
 	right: 50%;
 	transform: translate(-50%, -50%);
 	bottom: -80px;
-	/*background-color: white;*/
 	padding-right: 50px;
 	padding-left: 50px;
-		/*background-image: url(../images/gradient-bg.jpg);*/
 }
 
 #quote-border {
@@ -778,7 +772,56 @@ span.right-part:hover {
 	  }
 
 
+	  #map {
+		height: 250px;
+		width: 90%;
+		-moz-box-shadow: 10px 10px rgb(228,76,43);
+		-webkit-box-shadow: 10px 10px rgb(228,76,43);
+		box-shadow: 10px 10px rgb(228,76,43);
+	}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
 
 
 
@@ -899,10 +942,6 @@ span.right-part:hover {
 		margin-top: 30vh;
 	}
 
-	#contact-container {
-		height: 100vh;
-	}
-
 	#left-contact {
 		height: 100%;
 		width: 100%;
@@ -934,6 +973,14 @@ span.right-part:hover {
 
 	#reyes-container {
 		height: 100%;
+	}
+
+	.grey-process {
+		height: 100%;
+	}
+
+	.grey-process .cj-pic {
+		padding-top: 10vh;
 	}
 
 
