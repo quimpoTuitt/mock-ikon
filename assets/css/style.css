@@ -1054,6 +1054,18 @@ span.right-part:hover {
 		padding-bottom: 94.5vh;
 	}
 
+	#contact-span {
+		font-size: 1.25em;
+	}
+
+	.text-contact {
+		font-size: 1em;
+	}
+
+	#left-contact {
+		height: 94.5vh;
+	}
+
 
 
  }
