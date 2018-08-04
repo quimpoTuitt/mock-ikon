@@ -14,12 +14,11 @@
 	<!-- Bootstrap 4 CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-	<!-- External JS -->
-	<link rel="stylesheet" href="assets/js/script.js">
-
 	<!-- fav icon -->
     <link rel="icon" type="image/gif/png" href="assets/images/fav-logo.png">
 
+	<!-- external js -->
+	<script src="assets/js/script.js"></script>
 
 
     <!-- Google Fonts -->
@@ -79,6 +78,14 @@
 				font-size: 0.85em;
 			}
 		}
+
+		/*Extra small devices (portrait phones, less than 576px)*/
+		@media (max-width: 575.98px) {
+			.small-text {
+				visibility: hidden;
+			}
+		}
+
 
 	</style>
 
@@ -188,6 +195,9 @@
 					</ul>
 
 
+					<div id="map"></div>
+
+
 
 				</div> <!-- right -->
 				
@@ -199,9 +209,44 @@
 
 
 
-
+	
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+	<script>
+		function initMap() {
+
+			// map options
+			var options = {
+				zoom: 14,
+				center: {
+					lat: 14.584637,
+					lng: 121.067598
+				}
+			}
+			
+			// new map
+			var map = new google.maps.Map(document.getElementById('map'), options);
+
+			// add marker
+			var marker = new google.maps.Marker({
+				position: {
+					lat: 14.584637,
+					lng: 121.067598
+				},
+				map:map
+			});
+		}
+	</script>
+
+
+	<!-- google map -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC344CMVEiFsAltuK8fVGwjiU6QmjCS1Q8&callback=initMap"
+	async defer></script>
+
+
 </body>
 </html>

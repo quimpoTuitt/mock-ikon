@@ -13,17 +13,29 @@
 	<!-- Bootstrap 4 CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-	<!-- External JS -->
-	<link rel="stylesheet" href="assets/js/script.js">
-
 	<!-- fav icon -->
     <link rel="icon" type="image/gif/png" href="assets/images/fav-logo.png">
-
-
 
     <!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,500i" rel="stylesheet">
+
+		<!-- External JS -->
+	<script src="assets/js/script.js"></script>
+
+	<style>
+		@media (max-width: 575.98px) {
+			#res-bigpic {
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+
+			#list-service > a > li.list-group-item {
+				font-size: 1em;
+			}
+		}
+	
+	</style>
 
 </head>
 <body>
@@ -65,7 +77,7 @@
 
 				<div class="col-md-4" id="left-service">
 					
-					<h1 class="display-4 px-5" id="service-head">Services</h1>
+					<h2 class=" py-2 px-5" id="service-head"><strong>Services</strong></h2>
 
 					<ul class="list-group list-group-flush" id="list-service">
 						<a href="residential.html"><li class="list-group-item">Residential Homes</li></a>
@@ -79,16 +91,16 @@
 				</div> <!-- left side -->
 
 				<div class=" col-12 col-md-8 px-0">
-					<div class="row  mx-0 px-0" id="nested-gallery">
+					<div class="row  mx-0 px-0" id="nested-gallery"   onmouseenter="removeHide()" onmouseleave="addHide()">
 						<div class="col-md-4">
-							<img class="img-fluid serv-gal"src="assets/images/office-1.jpg">
+							<img class="img-fluid serv-gal first-serv"src="assets/images/office-1.jpg">
 							<img class="img-fluid serv-gal"src="assets/images/condo-1.jpg">
 						</div>
 
-						<div class="col-12 col-md-8" id="res-bigpic">
-							<div class="col-md-12 pt-2 pb-1" id="res-tag">
-								<small>Residential Home</small>
-								<p><strong>Reyes Residence, LGV</strong></p>
+						<div  id="res-bigpic" class="col-12 col-md-8">
+							<div  id="divTar" class="col-md-12 pt-2 pb-1 hide">
+									<small><a class="reyes-link" href="residential/reyes.html">Residential Home</a></small>
+									<p><strong><a class="reyes-link" href="residential/reyes.html">Reyes Residence, LGV</a></strong></p>
 							</div>
 						</div>
 					</div>

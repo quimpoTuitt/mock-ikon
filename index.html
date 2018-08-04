@@ -13,9 +13,6 @@
 	<!-- Bootstrap 4 CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-	<!-- External JS -->
-	<link rel="stylesheet" href="assets/js/script.js">
-
 	<!-- fav icon -->
     <link rel="icon" type="image/gif/png" href="assets/images/fav-logo.png">
 
@@ -28,6 +25,15 @@
 
 	<!-- animate css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- external js -->
+	<script src="assets/js/script.js"></script>
+
+
+			<!-- jquery -->
+			<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+
 
 </head>
 <body>
@@ -117,6 +123,10 @@
 				<p class="orange-quote text-center medium">Guided by the marriage of function and beauty,</p>
 				<p class="orange-quote text-center font-italic">a space can have a purpose.</p>
 
+				<div class="col-4" id="bot-left"></div>
+				<div class="col-4"></div>
+				<div class="col-4" id="bot-right"></div>
+
 				<img class="img-fluid" id="logo-quote" src="assets/images/fav-logo.png">
 			</div>
 		</div>
@@ -128,10 +138,10 @@
 			
 			<div class="row align-center mx-auto">
 				<div class="col-12 col-md-4">
-					<div class="card rounded-0">
-					  <img class="card-img-top rounded-0 img-fluid" src="assets/images/house1.jpg" alt="Card image cap">
+					<div class="card rounded-0 card-hold">
+					  <div class="card-img-top rounded-0 img-fluid" alt="Card image cap"></div>
 					  <div class="card-body">
-					  	<h5 class="card-title"><strong>Residential Homes</strong></h5>
+					  	<a href="process.html" class="card-pics"><h5 class="card-title"><strong class="card-desc">Residential Homes</strong></h5></a>
 					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					  </div>
 					</div>							
@@ -139,10 +149,10 @@
 				
 
 				<div class="col-12 col-md-4">
-					<div class="card rounded-0 img-fluid">
-					  <img class="card-img-top rounded-0" src="assets/images/house1.jpg" alt="Card image cap">
+					<div class="card rounded-0 card-hold">
+					  <div class="card-img-top rounded-0 img-fluid" alt="Card image cap"></div>
 					  <div class="card-body">
-					  	<h5 class="card-title"><strong>Condominium Units</strong></h5>
+					  	<a href="process.html"><h5 class="card-title"><strong class="card-desc">Condominium Units</strong></h5></a>
 					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					  </div>
 					</div>							
@@ -150,10 +160,10 @@
 				
 
 				<div class="col-12 col-md-4">
-					<div class="card rounded-0">
-					  <img class="card-img-top rounded-0 img-fluid" src="assets/images/house1.jpg" alt="Card image cap" id="house">
+					<div class="card rounded-0 card-hold">
+						<div class="card-img-top rounded-0 img-fluid" alt="Card image cap"></div>
 					  <div class="card-body">
-					  	<h5 class="card-title"><strong>Commercial & Retail</strong></h5>
+					  	<a href="process.html"><h5 class="card-title"><strong class="card-desc">Commercial & Retail</strong></h5></a>
 					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					  </div>
 					</div>							
@@ -165,10 +175,10 @@
 					<div class="row" id="bottom-row">
 						<div class="col-md-2"></div>
 						<div class="col-12 col-md-4">
-							<div class="card rounded-0">
-							  <img class="card-img-top rounded-0 img-fluid" src="assets/images/house1.jpg" alt="Card image cap">
+							<div class="card rounded-0 card-hold">
+								<div class="card-img-top rounded-0 img-fluid" alt="Card image cap"></div>
 							  <div class="card-body">
-							  	<h5 class="card-title"><strong>Repair & Maintenance</strong></h5>
+							  	<a href="process.html"><h5 class="card-title"><strong class="card-desc">Repair & Maintenance</strong></h5></a>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							  </div>
 							</div>							
@@ -176,10 +186,10 @@
 						
 
 						<div class="col-12 col-md-4">
-							<div class="card rounded-0">
-							  <img class="card-img-top rounded-0 img-fluid" src="assets/images/house1.jpg" alt="Card image cap">
+							<div class="card rounded-0 card-hold">
+								<div class="card-img-top rounded-0 img-fluid" alt="Card image cap"></div>
 							  <div class="card-body">
-							  	<h5 class="card-title"><strong>Office Space</strong></h5>
+							  	<a href="process.html"><h5 class="card-title"><strong class="card-desc">Office Space</strong></h5></a>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							  </div>
 							</div>							
@@ -211,8 +221,6 @@
 
 
 
-
-
 	<!-- wow scripts -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<script>
@@ -223,5 +231,7 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
