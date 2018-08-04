@@ -745,6 +745,39 @@ span.right-part:hover {
 	}
 
 
+	.grey-process {
+		padding-top: 10%;
+		background-color: #e2e2e3;
+		height: 100vh;
+	  }
+
+	.cj-mo {
+		width: 70%;
+		margin: 0 auto;
+
+	}
+
+
+	.cj-img {
+		width: 80px;
+		margin-right: 8%;
+	}
+
+	.cj-text {
+		font-family: 'Montserrat', sans-serif;
+		color: #2d3742;
+		font-size: 0.75em;
+		margin-bottom: 0.75em;
+		
+	}
+
+	.grey-process .cj-pic {
+		padding-top: 5%;
+		height: 300px;
+		margin-bottom: 10vh;
+	  }
+
+
 
 
 
@@ -1006,7 +1039,6 @@ span.right-part:hover {
 	#home-ps {
 		width: 70%;
 	}
-
 
 
 }
